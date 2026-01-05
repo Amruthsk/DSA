@@ -5,3 +5,4 @@ var singleNumber = function(nums) {
     }
 
     return result;
+}
