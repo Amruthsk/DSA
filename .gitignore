@@ -1,0 +1,23 @@
+
+
+
+# c
+*.ilk
+*.obj
+
+# rust
+*.exe
+
+*.pdb
+
+*.tmp
+*.log
+
+Thumbs.db
+.DS_Store
+
+target/
+
+.json
+
+.vscode
