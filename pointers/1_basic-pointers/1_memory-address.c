@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int x = 777;
-
-    int *p = &x;
-
-    printf("Value: %d | Address: %p\n", *p, (void*)p);
-
-    return 0;
+    int gold = 42;             
+    int* ptr = &gold;          
+    
+    printf("%p", ptr);        
+    printf("%d", *ptr);        
+    
+    *ptr = 100;     
+     printf("%d", gold);                  
+    return 0;                  
 }
